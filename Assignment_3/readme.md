@@ -1,4 +1,4 @@
-# 🧮 TOPSIS Implementation, Python Package, and Web Application
+#  TOPSIS Implementation, Python Package, and Web Application
 
 **Name:** Jaspreet Singh  
 **Roll Number:** 102303163  
@@ -11,7 +11,7 @@ This assignment consists of three parts:
 
 ---
 
-## ✅ Part I — Command Line TOPSIS Program
+##  Part I — Command Line TOPSIS Program
 
 A Python program `topsis.py` was created that implements the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method.
 
@@ -31,15 +31,15 @@ python topsis.py data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 ---
 
-## ✅ Part II — Python Package Creation and Upload to PyPI
+##  Part II — Python Package Creation and Upload to PyPI
 
 In this part, the TOPSIS command line program was converted into a proper Python package and uploaded to **PyPI**.
 
-### 📦 Package Name
+###  Package Name
 
 `Topsis-JaspreetSingh-102303163`
 
-### 📁 Package Structure
+###  Package Structure
 
 ```
 Topsis-JaspreetSingh-102303163
@@ -53,7 +53,7 @@ Topsis-JaspreetSingh-102303163
 └── requirements.txt
 ```
 
-### 📝 setup.py Configuration
+###  setup.py Configuration
 
 ```python
 from setuptools import setup, find_packages
@@ -81,37 +81,37 @@ setup(
 
 ```
 
-### ⚙️ Building the Package
+###  Building the Package
 
 ```bash
 python setup.py sdist bdist_wheel
 ```
 
-### 🚀 Uploading to PyPI
+###  Uploading to PyPI
 
 ```bash
 twine upload dist/*
 ```
 
-### 📥 Installing the Package
+###  Installing the Package
 
 ```bash
 pip install Topsis-JaspreetSingh-102303163
 ```
 
-### ▶️ Running the Package
+###  Running the Package
 
 ```bash
 topsis data.csv "1,1,1,2" "+,+,-,+" result.csv
 ```
 
-### 🌐 PyPI Link
+###  PyPI Link
 
 https://pypi.org/project/Topsis-JaspreetSingh-102303163/
 
 ---
 
-## ✅ Part III — Web Application for TOPSIS
+##  Part III — Web Application for TOPSIS
 
 A Flask-based web application was developed where users can:
 
@@ -135,17 +135,17 @@ A Flask-based web application was developed where users can:
 3. Result CSV is generated
 4. Result is sent to user's email
 
-### 🌐 Live Web App
+###  Live Web App
 
 https://topsis-web-42ui.onrender.com
 
-### 💻 GitHub Repository
+###  GitHub Repository
 
 https://github.com/JaspreetSingh33/topsis-web
 
 ---
 
-## 🧠 Learnings from Assignment
+##  Learnings from Assignment
 
 - Implementation of TOPSIS algorithm
 - Error handling in command line programs
@@ -158,7 +158,7 @@ https://github.com/JaspreetSingh33/topsis-web
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This assignment demonstrates the complete pipeline from:
 
