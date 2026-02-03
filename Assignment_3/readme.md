@@ -138,7 +138,7 @@ A Flask-based web application was developed where users can:
 ###  Live Web App
 
 https://topsis-web-42ui.onrender.com
-
+*wait for 20 seconds if not opened
 ###  GitHub Repository
 
 https://github.com/JaspreetSingh33/topsis-web
